@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Match on the Street</title>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,700|Roboto+Condensed' rel='stylesheet' type='text/css'>
+  <style>
+    body {
+      background-image: url("bk-rep.png"); /*url("gray-textile-background.jpg");*/
+      background-size: 100% auto;
+      font-family: 'Roboto', sans-serif;
+      line-height: 1.5;
+      margin: 10px 5% 10px 5%;
+      box-shadow: 0px 0px 2em black; 
+    }
+    
+    h1 {
+      margin: 0;
+      padding: 24px;
+      font-family: 'Roboto Condensed', sans-serif;
+      background-color: white;
+      box-shadow: 0 5px 5px grey;
+    }
+
+    #mainbody {
+      background-color: rgba(255, 255, 255, 0.95);
+    }
+    
+    a {
+    	text-decoration: none;
+    	color: #1976d2;
+    }
+    
+    a:hover {
+    	background-color: #1976d2;
+    	color: white;
+    	box-shadow: 0 3px 3px grey;
+    }
+    
+    a:active {
+    	text-decoration: none;
+    	color: #00bcd4;
+    }
+		
+		a.imglink:hover {
+		  background-color: transparent;
+      box-shadow: none;
+		}
+    
+    ul#menu li {
+      font-family: Tahoma, Geneva, sans-serif;
+      display: inline-block;
+    }
+    
+    ul#menu {
+      margin: 0;
+      padding: 0;
+      background-color: #607D8B;
+    }
+		
+		.past {
+		  color: #9E9E9E;
+		}
+    
+    div#links > a {
+      text-decoration: none;
+    }
+    
+    a.nav {
+      display: inline-block;
+    }
+    
+    a.nav {
+      width: 100px;
+      padding: 8px;
+      color: white; /*#424242;*/
+      text-align: center;
+      text-decoration: none;
+    }
+    
+    a.nav:hover {
+      color: black;
+      background-color: #E0E0E0;
+      box-shadow: 0 0 16px grey;
+    }
+    
+    div#mainbody {
+      margin-top: 0;
+      background-color: rgba(255, 255, 255, 0.9);
+      box-shadow: 0 0 8px grey;
+    }
+    
+    section {
+      margin: 0 15px;
+      padding: 12px;
+      /*float: left;
+      clear: both;
+      overflow: hidden;
+      display: block;
+      background-color: rgba(230, 240, 250, 0.5);*/
+    }
+
+    ul#todolist > li {
+      margin-top: 8px;
+    }
+    
+    div#links {
+      float: right;
+      width: 33%;
+      overflow: hidden;
+      margin: 30px 10px;
+      padding: 2%;
+      /*border-radius: 10px;*/
+      background-color: #E0E0E0;
+      box-shadow: 0px 0px 5px grey;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Match on the Street (Dev page)</h1>
+  
+  <ul id="menu">
+    <li><a class="nav" href="index.html#home">Home</a></li>
+    <li><a class="nav" href="index.html#documents">Documents</a></li>
+    <li><a class="nav" href="index.html#people">People</a></li>
+    <li><a class="nav" href="http://matchonthestreet.github.io/MatchOnTheStreet/">Product page</a></li>
+  </ul>
+  
+  <div id="mainbody">
+    <div id="links">
+      <h3>Related links</h3>
+
+      <a class="imglink" href="https://www.facebook.com/groups/472802342912071/" >
+        <img border="0" alt="facebook_group" src="facebook_logo.png" width="80" height="80">
+        </img>
+      </a>
+      <a class="imglink" href="https://drive.google.com/folderview?id=0B6RP9n8L66OhLVRULVkweGpiVms&usp=sharing">
+        <img border="0" alt="googledrive" src="googledrive_logo.png" width="80" height="80">
+        </img>
+      </a>
+      <a class="imglink"  href="https://github.com/MatchOnTheStreet">
+        <img border="0" alt="github_repo" src="github_logo.png" width="80" height="80">
+        </img>
+      </a>
+      <hr />
+
+      <ul>
+        <li><a href="https://www.google.com/design/spec/style/color.html#color-color-palatte">
+          Material Design color palatte
+        </a></li>
+        <li><a href="https://developers.facebook.com/docs/facebook-login/android">
+          Facebook login on Android tutorial.
+        </a></li>
+      </ul>
+    </div>
+  
+    <section id="todo">
+      <h3>To-do's & Plans</h3>
+      <ul id="todolist">
+      	<li class-"past">(02/26-03/04) Complete the Release Candidate</li>
+        <li class="past">(02/19-02/26) Work on the Feature-complete Release</li>
+        <li class="past">(02/08-02/19) Prepare for the Beta Release</li>
+			  <li class="past">(01/26-02/01) Design <a href="http://courses.cs.washington.edu/courses/cse403/16wi/assignments/project3.html">spec & presentation slides.</a></li>
+			  <li class="past">(01/26) 9:30am: 4th team weekly meeting @ CSE 002.</li>
+        <li class="past">(01/19) 9:30am: 3rd team meeting @ CSE 002.</li>
+        <li class="past">(01/14-01/19) Design UI prototypes.</li>
+        <li class="past">(01/12-01/14) Set up development environment. <a href="https://developer.android.com/sdk/index.html">(Android SDK)</a></li>
+        <li class="past">(01/14) After section: 2nd team meeting.</li>
+        <li class="past">(01/12) 9:30am: First team meeting @ CSE 002.</li>
+      </ul>
+    </section>
+  
+    <!-- section id="facebook">
+      <div>
+        <h3>Facebook group</h3>
+        <a href="https://www.facebook.com/groups/472802342912071/">
+          Link to our Facebook group.
+        </a>
+      </div>
+    </section-->
+    
+    <section id="documents">
+      <div>
+        <h3>Documents</h3>
+		    <ul id="docs">
+		
+		<li><a href="https://drive.google.com/drive/folders/0B6RP9n8L66OhU0tBbUdhRXV2MW8">SDS and SRS (Final Release)</a></li>
+
+		<li><a href="https://docs.google.com/document/d/1O6MUlCTQP7MmUBN8FqtqcH-hUuZTTvligHqW6wYS95U/edit?usp=sharing">SRS: Process Description (Final Release, includes updated actual schedule)</a></li>
+
+		<li><a href="https://docs.google.com/document/d/1ebLmWEW0wJnXWeas_f58vEZxIOTuFRr9ADWeN48kqmA/edit?pref=2&pli=1">
+	           Code Review (Release-Candidate)
+	         </a></li>
+
+
+		<li><a href="https://docs.google.com/document/d/1_uddRoPvY4mY-VpdrCw-gJuDAK8zWWqv4nToE63jyjc/edit?pref=2&pli=1#heading=h.kbrioe8qiyc7">
+	           User Studies (Release-Candidate)
+	         </a></li>
+
+
+	    	<li><a href="https://docs.google.com/document/d/1jHx1Bw1lmvHP-jRU-mzHBArVu6_S6Qed7IQusn-v_54/edit?pref=2&pli=1#heading=h.6jf32t43dpkz">
+	           Software Design Specification (Release-Candidate)
+	         </a></li>
+
+	        <li>
+		        Software Requirement Specification (Release-Candidate)
+		        <ul>
+			      <li><a href="https://docs.google.com/document/d/1v8QyLkLmiLBCsa5DJfLzfCopRHh7iSvyxJR-wuxw8wI/edit?pref=2&pli=1">
+			      	Process Description
+			      </a></li>
+			      <li><a href="https://docs.google.com/document/d/12hshkY5SXukdQyqmkDDCqDPepv7ajmZjzY0NT4cCzHs/edit?pref=2&pli=1">
+			      	Product Description
+			      </a></li>
+			      <li><a href="https://docs.google.com/document/d/1kF4DHBk6ibBt22SPCwGU8NOnJD61IzS-IxIXKSXNZeU/edit?pref=2&pli=1">
+			      	UI Diagrams
+			      </a></li>
+			      <li><a href="https://docs.google.com/document/d/1w1sob3pZITT3eIbeHxE37azHaZbi1aZZPyX9qfYymu8/edit?pref=2&pli=1">
+			      	Use Cases
+			      </a></li>
+		      	</ul>
+		      </li>
+
+
+		    	<li><a href="https://docs.google.com/document/d/1F2l2zM0nC0_tTFqv3LkqLbYcagiNhHw-dWoHfFVsoGA/edit?usp=sharing">
+	           Software Design Specification (Feature-complete)
+	         </a></li>
+
+	        <li>
+		        Software Requirement Specification (Feature-complete)
+		        <ul>
+			      <li><a href="https://drive.google.com/open?id=14AKR9IMcEOjscUEBjqNA_yZbjVrf9ogXTcH0utS3VQI">
+			      	Process Description
+			      </a></li>
+			      <li><a href="https://drive.google.com/open?id=1tFCXMEV5wPgYLeuzCMglDu7dz4wCEjtz5sHj_dSy_vg">
+			      	Product Description
+			      </a></li>
+			      <li><a href="https://drive.google.com/open?id=1qnTn4HCcmJkaF9Ippg48xW518X3n21A6-D9ElEUfDLg">
+			      	UI Diagrams
+			      </a></li>
+			      <li><a href="https://drive.google.com/open?id=1MsOHM7ZI-grgL9FJuCo5q4g-dBLWhW8umFLRNTeAYyE">
+			      	Use Cases
+			      </a></li>
+		      	</ul>
+		      </li>
+
+	        <li><a href="https://docs.google.com/document/d/1Jd_B-j9Pxm6FLgO7Mko_4BSVjfdRJNhXGlWPXlqGaPo/edit?usp=sharing">
+	          Software Design Specification (Beta)
+	        </a></li>
+				  
+		      <li>
+		        Software Requirement Specification (Beta)
+		        <ul>
+			      <li><a href="https://docs.google.com/document/d/14AKR9IMcEOjscUEBjqNA_yZbjVrf9ogXTcH0utS3VQI/edit?usp=sharing">
+			      	Process Description
+			      </a></li>
+			      <li><a href="https://docs.google.com/document/d/1tFCXMEV5wPgYLeuzCMglDu7dz4wCEjtz5sHj_dSy_vg/edit?usp=sharing">
+			      	Product Description
+			      </a></li>
+			      <li><a href="https://docs.google.com/document/d/1qnTn4HCcmJkaF9Ippg48xW518X3n21A6-D9ElEUfDLg/edit?usp=sharing">
+			      	UI Diagrams
+			      </a></li>
+			      <li><a href="https://docs.google.com/document/d/1MsOHM7ZI-grgL9FJuCo5q4g-dBLWhW8umFLRNTeAYyE/edit?usp=sharing">
+			      	Use Cases
+			      </a></li>
+		      	</ul>
+		      </li>
+
+		      <li><a href="initialDocs/SoftwareDesignSpecification.pdf">
+		      	Software Design Specification (Zero-feature)
+		      </a></li>
+
+		      <li>
+		      	Software Requirement Specification (Zero-feature)
+		      	<ul>
+			      <li><a href="initialDocs/MatchOnTheStreet_ProcessDescription.pdf">
+			      	Process Description (Zero-feature)
+			      </a></li>
+			      <li><a href="initialDocs/MatchOnTheStreet_ProductDescription.pdf">
+			      	Product Description (Zero-feature)
+			      </a></li>
+			      <li><a href="initialDocs/MatchOnTheStreet_UIDiagrams.pdf">
+			      	UI Diagrams (Zero-feature)
+			      </a></li>
+			      <li><a href="initialDocs/MatchOnTheStreet_UseCases.pdf">
+			      	Use Cases (Zero-feature)
+			      </a></li>
+		      	</ul>
+		      </li>
+
+
+          <li>Weekly Status Reports:
+            <ul>
+	            <li><a href="https://drive.google.com/open?id=1vATkXrofNIlFmrJwgzynviGCRJ4MK5dbDIgK_yUYT_A">
+	                Weekly Status Report (02/23)
+	              </a></li>
+	            <li><a href="https://drive.google.com/open?id=1hYwLUjGrWX6ry80oYCTVX6zW-FkZyLrK-Zl2FwuTQ0E">
+	                Weekly Status Report (02/16)
+	              </a></li>
+	            <li><a href="https://drive.google.com/open?id=1bdyGUUYgyKObZ0RpeqyQv3vx_eBsrZXCrfiIzsgZItA">
+	                Weekly Status Report (02/09)
+	              </a></li>
+	            <li><a href="https://drive.google.com/open?id=1hvLKJ_hFm27Vb0NOz0-qyrHaCx8n4DTPXTSh4rhjofA">
+	                Weekly Status Report (02/02)
+	              </a></li>
+	              <li><a href="https://docs.google.com/document/d/1kZlH9icbH9VdSpWl-ZVJ9w_N0J9zs7F1YEUAHkscuBg/edit">
+	                Weekly Status Report (01/26)
+	              </a></li>
+    		      <li><a href="https://docs.google.com/document/d/1oNhhr4F0Xs8_lUb_ZiOwsgZu2UZ3iFATKmXezdOayw0/edit">
+    		      	Weekly Status Report (01/19)
+    		      </a></li>
+            </ul>
+          </li>
+
+          <li><a href="https://github.com/MatchOnTheStreet/Docs/blob/master/DeveloperGuide.md">Developer Guides</a></li>
+          <li><a href="https://github.com/MatchOnTheStreet/Docs/blob/master/UserGuide.md">User Guides</a></li>
+		    </ul>
+      </div>
+    </section>
+
+    <section id="coverage_report">
+      <h3>Test Coverage Report</h3>
+      <iframe src="coverageReport/index.html" width="75%" height="640"></iframe>
+    </section>
+    
+    <!-- section id="repo">
+      <h3>Project Repository</h3>
+      <a href="https://github.com/MatchOnTheStreet">Project repository</a>
+    </section -->
+    
+    <section id="people">
+      <div>
+        <h3>Team Members</h3>
+        <ul id="members">
+          <li><em>Product Manager: </em><b>Jesus E. Larios Murillo</b> (larioj) [Event Management]</li>
+          <li><b>Lance Ogoshi</b> (logoshi) [Location Services]</li>
+          <li><b>Hope Crandall</b> (hopesc) [Search Functionalities]</li>
+          <li><b>Hao Liu</b> (liuh25) [Search Functionalities]</li>
+          <li><b>Ruijia Wang</b> (ruijiw) [Event Management]</li>
+          <li><b>Ben Tebbs</b> (bentebbs) [User Login]</li>
+	</ul>        
+      </div>
+    </section>
+    
+  </div>
+  
+</body>
+
+</html>

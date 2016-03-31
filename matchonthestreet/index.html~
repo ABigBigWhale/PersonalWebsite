@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Match on the Street</title>
+  <style>
+    body {
+      background-image: url("gray-textile-background.jpg");
+    }
+    
+    h1 {
+      margin: 0;
+      padding: 24px;
+      font-family: Impact, Charcoal, sans-serif;
+      background-color: white;
+      box-shadow: 0 5px 5px grey;
+    }
+    
+    ul#menu li {
+      font-family: Tahoma, Geneva, sans-serif;
+      display: inline-block;
+    }
+    
+    ul#menu {
+      margin: 0;
+      padding: 0;
+      background-color: rgba(100, 140, 240, 0.5);
+    }
+    
+    ul#menu > li {
+      width: 100px;
+      padding: 8px;
+      text-align: center;
+    }
+    
+    li:hover {
+      color: white;
+      background-color: rgb(50, 80, 120);
+      box-shadow: 0 0 16px grey;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Match on the Street (Dev page)</h1>
+  
+  <ul id="menu">
+    <li>Home</li>
+    <li>Documents</li>
+    <li>People</li>
+  </ul>
+  
+  <section id="Home">
+    <div>
+      <h2>Facebook group</h2>
+      <a href=""></a>
+    </div>
+  </section>
+  
+  <section id="Documents">
+
+  </section>
+  
+  <section id="People">
+  
+  </section>
+  
+</body>
+
+</html>
